@@ -515,7 +515,7 @@ async function sendMessage(accessToken, userid, template_id, base_url, title, co
     url: `${base_url}?message=${encoded_message}&date=${encoded_date}&title=${encodeURIComponent(title)}`,
     data: {
       title: { value: title },
-      content: { value: content }
+      content: { value: content,color:'#9370DB' }
     }
   };
 
